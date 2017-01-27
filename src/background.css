@@ -1,0 +1,8 @@
+* {
+    background-image: -gtk-gradient (linear,
+        left top,
+        left bottom,
+        from (#51cccc),
+        color-stop (0.5, darker (#51cccc)),
+        to (#51cccc));
+}
