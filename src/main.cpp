@@ -15,7 +15,7 @@ int main (int argc, char *argv[])
     static Glib::RefPtr<Gtk::Application> app = Gtk::Application::create(argc, argv, "org.gtkmm.examples.base");
 
     Glib::RefPtr<Gtk::CssProvider> css_provider = Gtk::CssProvider::create();
-    css_provider->load_from_path("/home/martin/autotoolstest/src/background.css");
+    css_provider->load_from_path("../src/background.css");
 
 	MainWindow mainwindow;
 
